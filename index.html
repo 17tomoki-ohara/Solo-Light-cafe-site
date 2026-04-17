@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ヘッド -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solo Light  Cafe</title>
+  <meta name="description" content="Solo Light Cafeの紹介">
+  <link rel="stylesheet" href="./css/resset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<!-- ボディー -->
+<body>
+
+
+<!-- ヘッダー -->
+    <header>
+      <div class="mainvisual">
+        <h1 class="Solo"><a href="./index.html">Solo Light <br> <span class="cafe">cafe</span></a></h1>
+      </div>
+
+      <!-- ヘッダーのナビ -->
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#concept">CONCEPT</a></li>
+          <li><a href="#space">SPACE</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#reservation">RESERVATION</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+<!-- メイン -->
+
+    <main>
+
+
+      <!-- コンセプト -->
+      <section id="concept" class="concept">
+        <div class="container">
+          <div class="concept-text">
+            <h2 class="title">CONCEPT</h2>
+            <p class="text" lang="jp">一人で過ごす時間がお好きな方へ。 <br>落ち着いた空間と自然光に包まれながら、 <br>自分だけの時間に集中できるカフェです。</p>
+          </div>
+          <div class="concept-pc">
+            <img src="./images/concept.jpg" alt="店内のイメージ写真">
+          </div>
+        </div>
+      </section>
+
+
+      <!-- スペース -->
+      <section id="space" class="space">
+        <div class="container">
+          <div class="space-text">
+            <h2 class="title">SPACE</h2>
+            <p class="text" lang="jp">一人でも心地よく過ごせるよう、一人掛けの席と二人掛けのテーブル席を中心に設計。 <br class="none">周りを気にせず、自分の時間に集中できる落ち着いた空間です。<br class="none"> 読書や作業にも最適な環境を整えています。</p>
+          </div>
+          <div class="space-pc">
+            <img src="./images/space-1.jpg" alt="一人席の写真">
+            <img src="./images/space-2.jpg" alt="二人席の写真">
+            <img src="./images/space-3.jpg" alt="読書している写真">
+          </div>
+        </div>
+      </section>
+
+
+      <!-- メニュー -->
+      <section id="menu" class="menu">
+        <div class="container">
+          <h2 class="title">MENU</h2>
+
+          <!-- ドリンク -->
+          <div class="menu-inner">
+            <div class="menu-text">
+              <h3 class="menu-title">Drink</h3>
+              <ul class="MENU">
+                <li>Cafe Latte </li>
+                <li>Cappuccino </li>
+                <li>Americano </li>
+                <li>Earl Grey </li>
+                <li>Green Tea </li>
+                <li>Craramel Latte </li>
+                <li>Matcha Latte </li>
+              </ul>
+            </div>
+            <div class="menu-pc">
+              <img src="./images/drink.jpg" alt="コーヒーの写真">
+            </div>
+          </div>
+
+          <!-- フード -->
+          <div class="menu-inner reverse">
+            <div class="menu-text">
+              <h3 class="menu-title">Food</h3>
+              <ul class="MENU">
+                <li>Bagel Sandwich</li>
+                <li>Avocado Toast</li>
+                <li>Granola Bowl</li>
+                <li>Cheese cake</li>
+                <li>Chocolate Cake</li>
+                <li>Affogato</li>
+              </ul>
+            </div>
+            <div class="menu-pc">
+              <img src="./images/food.jpg" alt="食べ物の写真">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- 予約 -->
+      <section id="reservation" class="reservation">
+        <div class="container">
+           <h2 class="title">RESERVATION</h2>
+           <p class="reservation-title" lang="jp">ご予約について</p>
+           <p class="reservation-text" lang="jp">お席のご予約は以下から承っております。 <br>一人でもお気軽にご利用ください。 <br>※ご予約なしでもご利用いただけます。</p>
+           <a href="./reserve.html" class="rev-btn">Reserve a seat</a>
+        </div>
+      </section>
+
+
+      <!-- お問い合わせ -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="contact-title" lang="jp">ご質問・お問い合わせはこちらから</p>
+          <form action="#" class="form">
+            <div class="form-gr">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-gr">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-gr message">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" required></textarea>
+            </div>
+            <div class="form-btn">
+             <button class="sub-btn" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <div class="container">
+
+        <!-- フレックス -->
+        <div class="footer-inner">
+
+          <!-- 左・ロゴ -->
+            <div class="footer-left">
+              <p class="footer-text">Solo Light Cafe</p>
+              <p class="sub-text" lang="jp">一人の時間</p>
+            </div>
+
+          <!-- 真ん中・ナビ -->
+            <nav class="footer-nav">
+              <ul>
+                <li><a href="#concept">CONCEPT</a></li>
+                <li><a href="#space">SPACE</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#reservation">RESERVATION</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </nav>
+
+          <!-- 左・店舗情報 -->
+           <div class="footer-right">
+             <p class="footer-text">OPEN <span class="footer-small">: 10:00 ~ 20:00</span></p>
+             <p class="footer-text">CLOSE <span class="footer-small">: Thursday</span></p>
+             <p class="footer-text">TEL <span class="footer-small">: 000-0000-0000</span></p>
+             <p class="footer-text">ADDRESS <span class="footer-small">: Hyogo</span></p>
+           </div>
+        </div>
+        <p class="copyright">&copy; 2026 Solo Light Cafe</p>
+      </div>
+    </footer>
+</body>
+</html>

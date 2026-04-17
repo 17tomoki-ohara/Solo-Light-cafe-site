@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ヘッド -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solo Light  Cafe | Reserve</title>
+  <meta name="description" content="Solo Light Cafeの予約ページ">
+  <link rel="stylesheet" href="./css/resset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <script src="js/calendar.js" defer></script>
+  <script src="js/submit.js" defer></script>
+</head>
+
+
+<!-- ボディー -->
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <div class="logo">
+      <h1 class="Solo"><a href="./index.html">Solo Light <br> <span class="cafe">cafe</span></a></h1>
+    </div>
+  </header>
+
+
+  <!-- メイン -->
+  <main class="main-rev">
+    <!-- 戻る -->
+    <a href="./index.html" class="back">← Back</a>
+
+    <!-- タイトル -->
+    <h2 class="title">RESERVATION</h2>
+
+    <!-- 予約欄 -->
+    <form id="form">
+
+     <div class="reservation-box">
+
+        <!-- 席選択 -->
+        <h3 class="rev-title">Selecct a seat</h3>
+        <p class="notice" lang="jp">※席指定をしない方は席の選択をしないでください</p>
+
+        <div class="reservation-box-flex">
+
+            <label class="seat">
+              <input type="radio" name="seat" value="Window Solo">
+              <div class="seat-card">
+                <img src="./images/window & solo.svg" alt="太陽のアイコン">
+                <p class="seat-text1">Window Solo</p>
+                <p class="seat-text2">Sunlight & View</p>
+              </div>
+            </label>
+
+            <label class="seat">
+              <input type="radio" name="seat" value="Table for one">
+              <div class="seat-card">
+                <img src="./images/table for one.svg" alt="コーヒーのアイコン">
+                <p class="seat-text1">Table for one</p>
+                <p class="seat-text2">Simple & Calm</p>
+              </div>
+            </label>
+
+            <label class="seat">
+              <input type="radio" name="seat" value="Table for two">
+              <div class="seat-card">
+                <img src="./images/table for two.svg" alt="二人のアイコン">
+                <p class="seat-text1">Table for two</p>
+                <p class="seat-text2">For Friends</p>
+              </div>
+            </label>
+
+        </div>
+
+        <!-- 日にち -->
+         <h3 class="rev-title">Date</h3>
+         <div class="date-box">
+          <input type="date" id="date" name="date" required>
+         </div>
+
+
+        <!-- 時間 -->
+         <h3 class="rev-title">Time</h3>
+         <select name="time" id="time" required>
+          <option value="11:00">11:00</option>
+          <option value="13:00">13:00</option>
+          <option value="15:00">15:00</option>
+          <option value="17:00">17:00</option>
+          <option value="19:00">19:00</option>
+         </select>
+
+         <!-- 送信 -->
+          <button type="submit" class="rev-btn2">Reserve</button>
+     </div>
+
+    </form>
+  </main>
+
+
+  <!-- フッター -->
+  <footer>
+    <p class="copyright">&copy; 2026 Solo Light Cafe</p>
+  </footer>
+</body>
+</html>
