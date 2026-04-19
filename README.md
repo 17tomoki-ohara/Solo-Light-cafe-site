@@ -40,7 +40,7 @@ https://17tomoki-ohara.github.io/Solo-Light-cafe-site/
 ---
 
 ## スクリーンショット
-![トップ画面]（images/top.png）
+![トップ画面](images/top.png)
 
 ---
 
